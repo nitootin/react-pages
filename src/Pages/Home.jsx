@@ -1,8 +1,8 @@
-const Home = () =>{
+const Home = () => {
 
-return(
-    <h2>Bem vindo a pagina inicial</h2>
-)
+    return (
+        <h2>Bem vindo a pagina inicial</h2>
+    );
 
 
 }
