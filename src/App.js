@@ -19,6 +19,7 @@ function App() {
         <Navbar user={user}/>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="*" element={<h2>erro 404</h2>} />
           <Route path="/sobre" element={<Sobre />} />
           <Route path="/contato" element={<Contato />} />
           <Route path="/admin" element={<PrivateRoute user={user} requiredRole="Admin" element={ <Admin />}/>} />
